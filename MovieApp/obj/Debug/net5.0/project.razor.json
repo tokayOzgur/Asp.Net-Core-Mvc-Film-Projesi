@@ -15629,8 +15629,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Movie\\Details.cshtml",
+      "TargetPath": "Views\\Movie\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Movie\\List.cshtml",
+      "TargetPath": "Views\\Movie\\List.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15641,6 +15651,11 @@
     {
       "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Movie\\Index.cshtml",
+      "TargetPath": "Views\\Movie\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -24,7 +24,6 @@ C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\ne
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\MovieApp.TagHelpers.output.cache
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\MovieApp.RazorCoreGenerate.cache
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -38,3 +37,4 @@ C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\ne
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\MovieApp.pdb
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\MovieApp.genruntimeconfig.cache
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\MovieApp.csproj.CopyComplete
+C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
