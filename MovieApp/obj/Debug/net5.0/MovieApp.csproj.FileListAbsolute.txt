@@ -27,7 +27,6 @@ C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\ne
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Movie\Details.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Movie\Index.cshtml.g.cs
-C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\List.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
@@ -39,3 +38,4 @@ C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\ne
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\MovieApp.pdb
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\MovieApp.genruntimeconfig.cache
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\MovieApp.csproj.CopyComplete
+C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Movie\List.cshtml.g.cs

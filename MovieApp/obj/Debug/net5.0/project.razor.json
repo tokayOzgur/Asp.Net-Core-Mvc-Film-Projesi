@@ -15639,8 +15639,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Shared\\List.cshtml",
-      "TargetPath": "Views\\Shared\\List.cshtml",
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Movie\\List.cshtml",
+      "TargetPath": "Views\\Movie\\List.cshtml",
       "FileKind": "mvc"
     },
     {
