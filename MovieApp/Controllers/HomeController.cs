@@ -22,7 +22,8 @@ namespace MovieApp.Controllers
         {
             return View(Repository.Movies);
         }
-
+        /* Movie data = Repository.GetById(id);
+                            return View(data); */
         public IActionResult Details(int id)
         {
             return View(Repository.GetById(id));
