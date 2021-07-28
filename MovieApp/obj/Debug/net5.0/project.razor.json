@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Shared\\_Menu.cshtml",
+      "TargetPath": "Views\\Shared\\_Menu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Home\\Contact.cshtml",
       "TargetPath": "Views\\Home\\Contact.cshtml",
       "FileKind": "mvc"
@@ -15649,6 +15654,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Shared\\_Navbar.cshtml",
+      "TargetPath": "Views\\Shared\\_Navbar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Shared\\_Footer.cshtml",
+      "TargetPath": "Views\\Shared\\_Footer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15671,11 @@
     {
       "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Movie\\Index.cshtml",
       "TargetPath": "Views\\Movie\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Home\\_Movies.cshtml",
+      "TargetPath": "Views\\Home\\_Movies.cshtml",
       "FileKind": "mvc"
     },
     {

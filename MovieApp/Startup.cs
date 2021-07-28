@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -7,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 
 namespace MovieApp
@@ -30,6 +32,7 @@ namespace MovieApp
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -41,7 +44,16 @@ namespace MovieApp
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+
+            app.UseStaticFiles(); //wwwroot dışarıya açılmış olur
+
+            // node-modules klasörü dışarıya vermiş oluyoruz.
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine
+                (Directory.GetCurrentDirectory(), "node_modules")),
+                RequestPath = "/modules"
+            });
 
             app.UseRouting();
 
@@ -54,7 +66,7 @@ namespace MovieApp
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            
+
         }
     }
 }
