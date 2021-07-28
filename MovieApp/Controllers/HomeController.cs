@@ -20,9 +20,13 @@ namespace MovieApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(Repository.Movies);
         }
 
+        public IActionResult Details(int id)
+        {
+            return View(Repository.GetById(id));
+        }
         public IActionResult Contact()
         {
             return View();
