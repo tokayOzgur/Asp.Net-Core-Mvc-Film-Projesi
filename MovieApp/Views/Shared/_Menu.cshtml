@@ -1,7 +1,10 @@
+@model IEnumerable<Category>
+
+
 <div class="list-group">
-    <a href="#" class="list-group-item list-group-item-action active">Link Item 1</a>
-    <a href="#" class="list-group-item list-group-item-action active">Link Item 2</a>
-    <a href="#" class="list-group-item list-group-item-action active">Link Item 3</a>
-    <a href="#" class="list-group-item list-group-item-action active">Link Item 4</a>
-    <a href="#" class="list-group-item list-group-item-action active">Link Item 5</a>
+
+    @foreach (var item in Model)
+    {
+        <a href="" class="list-group-item list-group-item-action active">@item.CategoryName</a>
+    }
 </div>

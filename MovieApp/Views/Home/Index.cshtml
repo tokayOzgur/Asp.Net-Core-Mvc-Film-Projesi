@@ -1,14 +1,14 @@
-﻿@model IEnumerable<Movie>
+﻿@model MovieCategoryModel
 
 
 <div class="row">
     <div class="col-md-3">
-        @Html.Partial("_Menu")
+        @Html.Partial("_Menu",Model.Categories)
     </div>
 
     <div class="col-md-9">
 
-        @* @Html.Partial("_Movies",Model) *@
-        <partial name="_Movies" model="Model"></partial>
+        @Html.Partial("_Movies",Model.Movies)
+
     </div>
 </div>
