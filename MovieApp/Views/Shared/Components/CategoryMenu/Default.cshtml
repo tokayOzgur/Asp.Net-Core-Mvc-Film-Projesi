@@ -5,6 +5,10 @@
 
     @foreach (var item in Model)
     {
-        <a href="" class="list-group-item list-group-item-action active">@item.CategoryName</a>
+        <a asp-controller="Home" asp-action="Index" asp-route-id="@item.CategoryId"
+        class="list-group-item list-group-item-action @(ViewBag.SelectedCategory == item.CategoryId.ToString() ? "active" : "")">
+            @item.CategoryName
+        </a>
+
     }
 </div>

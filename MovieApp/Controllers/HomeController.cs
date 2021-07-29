@@ -19,26 +19,19 @@ namespace MovieApp.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? id) // null da olabilir
         {
-
-           /*  MovieCategoryModel model = new MovieCategoryModel();
-            model.Categories = CategoryRepository.Categories;
-            model.Movies = MovieRepository.Movies; */
-            /* Her iki modelide tek model üzerine taşıdık. Böylelikle 
-            her iki modelide tek model üzerine almış olup Index sayfasında göstermiş olduk. */
-
-
-
-            return View(MovieRepository.Movies);
+            var movies = MovieRepository.Movies;
+            if (id != null)
+            {
+                movies = movies.Where(i => i.CategoryId == id).ToList();
+            }
+            return View(movies);
         }
-        /* Movie data = Repository.GetById(id);
-                            return View(data); */
+
         public IActionResult Details(int id)
         {
-            /* MovieCategoryModel model = new MovieCategoryModel();
-            model.Categories = CategoryRepository.Categories;
-            model.Movie = MovieRepository.GetById(id); Artık bir modele ihtiyacımız yok*/
+
 
             return View(MovieRepository.GetById(id));
         }
