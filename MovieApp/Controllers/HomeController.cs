@@ -22,22 +22,25 @@ namespace MovieApp.Controllers
         public IActionResult Index()
         {
 
-            MovieCategoryModel model = new MovieCategoryModel();
+           /*  MovieCategoryModel model = new MovieCategoryModel();
             model.Categories = CategoryRepository.Categories;
-            model.Movies = MovieRepository.Movies;
+            model.Movies = MovieRepository.Movies; */
             /* Her iki modelide tek model üzerine taşıdık. Böylelikle 
             her iki modelide tek model üzerine almış olup Index sayfasında göstermiş olduk. */
-            return View(model);
+
+
+
+            return View(MovieRepository.Movies);
         }
         /* Movie data = Repository.GetById(id);
                             return View(data); */
         public IActionResult Details(int id)
         {
-            MovieCategoryModel model = new MovieCategoryModel();
+            /* MovieCategoryModel model = new MovieCategoryModel();
             model.Categories = CategoryRepository.Categories;
-            model.Movie = MovieRepository.GetById(id);
+            model.Movie = MovieRepository.GetById(id); Artık bir modele ihtiyacımız yok*/
 
-            return View(model);
+            return View(MovieRepository.GetById(id));
         }
         public IActionResult Contact()
         {

@@ -1,14 +1,14 @@
-﻿@model MovieCategoryModel
+﻿@model IEnumerable<Movie>
 
 
 <div class="row">
     <div class="col-md-3">
-        @Html.Partial("_Menu",Model.Categories)
+        @* @await Component.InvokeAsync("CategoryMenu") *@
     </div>
 
     <div class="col-md-9">
 
-        @Html.Partial("_Movies",Model.Movies)
+        @Html.Partial("_Movies",Model)
 
     </div>
 </div>

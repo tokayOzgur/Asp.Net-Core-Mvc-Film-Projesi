@@ -16,9 +16,18 @@
     </header>
 
     <main>
-        <div class="container mt-4">
-            @RenderBody()
+        <div class=" mt-4">
+            <div class="row">
+                <div class="col-md-2">
+                    @await Component.InvokeAsync("CategoryMenu")
+                </div>
+                <div class="col-md-10">
+                    @RenderBody()
+                </div>
+            </div>
         </div>
+
+
     </main>
 
     <footer>

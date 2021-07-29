@@ -48,3 +48,4 @@ C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\ne
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_Menu.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Home\_Movies.cshtml.g.cs
 C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\user\Desktop\GitHub\Asp.Net-Core-Mvc-Film-Projesi\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs

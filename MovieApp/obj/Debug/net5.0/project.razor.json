@@ -13566,6 +13566,23 @@
         }
       },
       {
+        "HashCode": -828221715,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoryMenuViewComponentTagHelper",
+        "AssemblyName": "MovieApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:category-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoryMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CategoryMenu"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15646,6 +15663,11 @@
     {
       "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Movie\\Details.cshtml",
       "TargetPath": "Views\\Movie\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Desktop\\GitHub\\Asp.Net-Core-Mvc-Film-Projesi\\MovieApp\\Views\\Shared\\Components\\CaategoryMenu\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CaategoryMenu\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
