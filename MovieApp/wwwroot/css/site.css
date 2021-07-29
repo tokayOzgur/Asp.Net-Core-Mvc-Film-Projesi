@@ -1,3 +1,21 @@
-﻿.footer{
-  background-color: #f5f5f5;
+﻿body {
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: 50px !important;
+}
+
+#goLeft {
+  margin-left: -100px !important;
+  padding: 0;
+}
+
+.card-img {
+  width: 200px !important;
+  min-height: 200px;
+}
+
+#ayir {
+  margin: 0 30px 0 30px;
 }
